@@ -30,7 +30,7 @@ const ShopPage = () => {
   return (
     <>
    
-    <div className="p-4">
+    <div className="p-4 place-items-center">
       {/* Left Side Heading */}
       <div className="mb-8">
         <h1 className="text-black text-3xl font-bold">Shop</h1>

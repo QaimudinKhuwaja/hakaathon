@@ -22,7 +22,7 @@ const page = () => {
     <div className="space-y-4 ml-12 mt-12 sm:ml-24 sm:mt-24 w-full">
       {/* Heading and Text */}
       <p className="text-[18px]">Contact US</p>
-      <h1 className="text-[60px] sm:text-4xl md:text-5xl font-bold pt-[13px]">
+      <h1 className="text-[50px] sm:text-4xl md:text-5xl font-bold pt-[13px]">
         Get in touch <br />
         today!
       </h1>
@@ -30,8 +30,8 @@ const page = () => {
         We know how large objects will act, <br />
         but things on a small scale.
       </p>
-      <h1 className="text-[#252B42] text-[20px] font-[800]">Phone: +451 215 215</h1>
-      <h1 className="text-[#252B42] text-[24px] font-[800]">Fax: +451 215 215</h1>
+      <h1 className="text-[#252B42] text-[18px] font-[800]">Phone: +451 215 215</h1>
+      <h1 className="text-[#252B42] text-[18px] font-[800]">Fax: +451 215 215</h1>
 
       {/* Icons */}
       <div className="flex gap-6 mt-6">

@@ -15,7 +15,7 @@ const ThirdPag = () => {
 <>
     
   
-            <div className="text-center mt-10">
+            <div className="text-center mt-20">
               <h2 className='text-[#737373] text-xl'>Featured Products</h2>
           <h1 className="text-2xl sm:text-1xl font-bold mt-[8px]"> BESTSELLER PRODUCTS</h1>
           <p className="mt-4 text-lg max-w-2xl mx-auto">
@@ -25,17 +25,17 @@ const ThirdPag = () => {
 
     
 
-<div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center mt-[50px]'>
+<div className=' grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center mt-[50px]'>
     <div className="max-w-[200px] h-[420px] bg-white ">
       {/* Product Image */}
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[180px] relative">
         <Image
           src={ourat} // Product Image
           alt="Product"
           width={200}
           height={200}
           objectFit="cover"
-          className='h-[270px]'
+          className='h-[290px]'
         />
       </div>
 
@@ -67,14 +67,14 @@ const ThirdPag = () => {
 
     <div className="max-w-[200px] h-[420px] bg-white ">
       {/* Product Image */}
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[180px] relative">
         <Image
           src={boyy} // Product Image
           alt="Product"
           width={200}
           height={200}
           objectFit="cover"
-          className='h-[270px]'
+          className='h-[290px]'
         />
       </div>
 
@@ -108,14 +108,14 @@ const ThirdPag = () => {
 
     <div className="max-w-[200px] h-[420px] bg-white ">
       {/* Product Image */}
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[180px] relative">
         <Image
           src={girll} // Product Image
           alt="Product"
           width={200}
           height={200}
           objectFit="cover"
-          className='h-[270px]'
+          className='h-[290px]'
         />
       </div>
 
@@ -148,14 +148,14 @@ const ThirdPag = () => {
 
     <div className="max-w-[200px] h-[420px] bg-white ">
       {/* Product Image */}
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[180px] relative">
         <Image
           src={girlll} // Product Image
           alt="Product"
           width={200}
           height={200}
           objectFit="cover"
-          className='h-[270px]'
+          className='h-[290px]'
         />
       </div>
 
@@ -191,14 +191,14 @@ const ThirdPag = () => {
 
     <div className="max-w-[200px] h-[420px] bg-white ">
       {/* Product Image */}
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[180px] relative">
         <Image
           src={product5} // Product Image
           alt="Product"
           width={200}
           height={200}
           objectFit="cover"
-          className='h-[270px]'
+          className='h-[290px]'
         />
       </div>
 
@@ -232,14 +232,14 @@ const ThirdPag = () => {
 
     <div className="max-w-[200px] h-[420px] bg-white ">
       {/* Product Image */}
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[180px] relative">
         <Image
           src={product6} // Product Image
           alt="Product"
           width={200}
           height={200}
           objectFit="cover"
-          className='h-[270px]'
+          className='h-[290px]'
         />
       </div>
 
@@ -273,14 +273,14 @@ const ThirdPag = () => {
 
     <div className="max-w-[200px] h-[420px] bg-white ">
       {/* Product Image */}
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[180px] relative">
         <Image
           src={product7} // Product Image
           alt="Product"
           width={200}
           height={200}
           objectFit="cover"
-          className='h-[270px]'
+          className='h-[290px]'
         />
       </div>
 
@@ -315,14 +315,14 @@ const ThirdPag = () => {
 
     <div className="max-w-[200px] h-[420px] bg-white ">
       {/* Product Image */}
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[180px] relative">
         <Image
           src={product8} // Product Image
           alt="Product"
           width={200}
           height={200}
           objectFit="cover"
-          className='h-[270px]'
+          className='h-[290px]'
         />
       </div>
 

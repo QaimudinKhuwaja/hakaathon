@@ -1,60 +1,53 @@
-
-
-
-
-
 import React from "react";
 import Image from "next/image";
-import girl from '../assets/girl.jpg'
+import girl from '../assets/girl.jpg';
+
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative max-w-screen-full h-screen ">
       {/* Full Screen Image */}
-      <div className="relative w-full h-full">
+      <div className="relative h-[40vh] sm:h-[50vh] md:h-[110vh]">
         <Image
-          src={girl} // Replace with your image URL
+          src={girl} 
           alt="Hero Image"
-          width={1500} // Width of the image
-          height={1000} // Height of the image
-          objectFit="cover" // Ensures the image covers the container
-          className=" object-cover"
+          width={0} 
+          height={0}
+        
         />
       </div>
 
       {/* Text on top of the image */}
-      <div className="xm:place-items-center hidden md:block lg:block">
-      <div className="absolute left-0 top-0 ml-[90px] lg:mt-[140px] md:mt-[140px] p-6 md:p-12 z-10 text-black md:text-white lg:text-white flex items-start justify-start h-full w-full  mt-[200px]">
-        <div className="space-y-4 ml-12 mt-12"> {/* Adjusted to move text to the right and down */}
-          <p className="text-[18px] ">SUMMER 2022</p>
-          <h1 className="text-[40px] sm:text-4xl md:text-5xl font-bold pt-[13px] mr-[0px] ">
-          NEW COLLECTION
+      <div className="absolute pr-[320px] top-0 w-full flex items-center justify-center z-10 text-white h-full">
+        <div className="space-y-4 text-center md:text-left lg:text-left md:block hidden sm:hidden">
+          {/* Text Content */}
+          <p className="text-[18px]">SUMMER 2022</p>
+          <h1 className="text-[30px] sm:text-4xl md:text-5xl font-bold mt-3">
+            NEW COLLECTION
           </h1>
-          <p className="pt-[13px] text-[20px] max-w-xs sm:max-w-md md:max-w-lg">
-          We know how large objects will act, <br />
-          but things on a small scale.          </p>
+          <p className="pt-[13px] text-[17px] max-w-xs sm:max-w-md md:max-w-lg mx-auto md:ml-0 ">
+            We know how large objects will act, <br />
+            but things on a small scale.
+          </p>
           <button className="mt-6 px-6 py-3 pt-[17px] bg-[#2DC071] text-white font-semibold w-[200px] h-[50px] rounded-lg hover:bg-blue-600">
             Shop Now
           </button>
         </div>
       </div>
-      </div>
-
-      <div className="xm:place-items-center md:hidden lg:hidden block">
-      <div className="absolute left-0 top-0  lg:mt-[140px] md:mt-[140px] p-6 md:p-12 z-10 text-black md:text-white lg:text-white flex items-start justify-start h-full w-full  mt-[200px]">
-        <div className="space-y-4 ml-12 mt-12"> {/* Adjusted to move text to the right and down */}
-          <p className="text-[18px] ">SUMMER 022</p>
-          <h1 className="text-[40px] sm:text-4xl md:text-5xl font-bold pt-[13px] mr-[0px] ">
-          NEW COLLECTION
+{/* small size text */}
+      <div className="space-y-2 md:hidden lg:hidden place-items-center mt-[10px]">
+          {/* Text Content */}
+          <p className="text-[18px]">SUMMER 2022</p>
+          <h1 className="text-[30px] sm:text-4xl md:text-5xl font-bold mt-3">
+            NEW COLLECTION
           </h1>
-          <p className="pt-[13px] text-[20px] max-w-xs sm:max-w-md md:max-w-lg">
-          We know how large objects will act, <br />
-          but things on a small scale.          </p>
-          <button className="mt-6 px-6 py-3 pt-[17px] bg-[#2DC071] text-white font-semibold w-[200px] h-[50px] rounded-lg hover:bg-blue-600">
+          <p className="pt-[13px] pl-5 text-[18px] max-w-xs sm:max-w-md">
+            We know how large objects will act, <br />
+            but things on a small scale.
+          </p>
+          <button className="mt-6 px-8 py-4 bg-[#2DC071] text-white font-semibold  rounded-lg hover:bg-blue-600">
             Shop Now
           </button>
         </div>
-      </div>
-      </div>
     </section>
   );
 };

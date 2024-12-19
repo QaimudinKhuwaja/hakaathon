@@ -7,9 +7,9 @@ import React from 'react';
 
 const SecondPag = () => {
   return (
-    <div className="w-full mt-[100px]">
+    <div className="w-full">
       {/* Heading and Text */}
-      <div className="text-center mt-10">
+      <div className="text-center">
         <h1 className="text-2xl sm:text-3xl font-bold"> EDITORS PIC</h1>
         <p className="mt-4 text-lg max-w-2xl mx-auto">
         Problems trying to resolve the conflict between 
@@ -63,7 +63,7 @@ const SecondPag = () => {
               className="w-[260px]  h-[190px] object-cover rounded-lg"
             />
             {/* White box with name */}
-            <div className="absolute bottom-[20px] left-1/2 transform -translate-x-1/2 text-center text-black font-bold text-lg bg-white w-[160px] h-[45px] flex items-center justify-center">
+            <div className="absolute bottom-[20px] left-1/2 transform -translate-x-1/2 text-center text-black font-bold text-[10px] bg-white w-[80px] h-[32px] flex items-center justify-center">
             ACCESSORIES
             </div>
           </div>

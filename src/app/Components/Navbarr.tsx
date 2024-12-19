@@ -10,12 +10,12 @@ import facebook from '../assets/facebook.png'
 
 const Navbarr = () => {
   return (
-    <nav className="bg-[#252B42] text-white p-4 h-[58px] ">
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between space-x-4">
+    <nav className="bg-[#252B42] text-white py-4 ">
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between">
         {/* Left Side: Number and Email */}
         <div className="flex items-center space-x-4">
-          <span className="text-sm">+1234567890</span>
-          <span className="text-sm">example@email.com</span>
+          <span className="text-sm">03113906067</span>
+          
         </div>
 
         {/* Center Text */}

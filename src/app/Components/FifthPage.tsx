@@ -8,7 +8,7 @@ const FifthPag = () => {
       <div className="flex flex-col sm:flex-row items-center justify-between p-6 w-full sm:w-[1050px] sm:h-[500px]">
 
         {/* Left Side: Image */}
-        <div className="sm:w-1/2 sm:pr-4 mb-6 sm:mb-0 order-2 sm:order-1">
+        <div className="sm:w-1/2 sm:pr-4 mb-6 sm:mb-0 order-2 sm:order-1 mt-5">
           <Image
             src={immg}
             alt="Image"
@@ -32,11 +32,11 @@ const FifthPag = () => {
           </p>
 
           {/* Apply Now and Add to Cart buttons in a row */}
-          <div className="flex mt-6 justify-center sm:justify-start gap-4">
-            <div className="border-2 border-[#2DC071] p-[15px] px-4 text-[#2DC071] font-semibold rounded-lg w-[150px] h-[60px] text-center">
+          <div className="flex mt-7 justify-center sm:justify-start gap-4">
+            <div className="border-2 py-2 px-3 border-[#2DC071] text-[15px] text-[#2DC071] font-semibold rounded-lg  text-center">
               READ MORE
             </div>
-            <button className="py-2 px-4 bg-[#2DC071] text-white rounded-lg w-[150px] h-[60px]">
+            <button className="py-2 px-3 bg-[#2DC071] text-[15px] text-white rounded-lg ">
               BUY NOW
             </button>
           </div>

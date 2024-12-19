@@ -13,16 +13,16 @@ import CardLayout from './Components/SixthPage'
 const page = () => {
   return (
     <>
-    
+
 
     <Hero />
     <SecondPag />   
     <ThirdPag />
     <FourthPag />
     <FifthhPag />
-       <CardLayout />
-   
-    
+    <CardLayout />
+  
+ 
 
 
 

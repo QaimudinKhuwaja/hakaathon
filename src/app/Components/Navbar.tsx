@@ -15,11 +15,11 @@ const Navbar = () => {
       <div className="max-w-screen-xl mx-auto flex items-center justify-between flex-wrap">
         {/* Left Side: Bandage */}
         <div className="text-[24px]  font-semibold flex-shrink-0">
-          Bandage
+          QAFIX
         </div>
       
         {/* Center: Links */}
-        <div className="flex space-x-6 ml-10 flex-wrap justify-center md:ml-0 md:flex-nowrap w-full md:w-auto">
+        <div className="flex space-x-5 ml-10 flex-wrap justify-center md:ml-0 md:flex-nowrap w-full md:w-auto">
           <Link href="/" className="text-[#737373] hover:text-blue-500 py-2">Home </Link>
           <Link href="./shop" className="text-[#737373] hover:text-blue-500 py-2">Shop </Link>
           <Link href="./about" className="text-[#737373] hover:text-blue-500 py-2">About </Link>

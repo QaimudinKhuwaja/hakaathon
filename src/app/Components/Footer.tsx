@@ -4,13 +4,13 @@ import React from "react";
 
 const Footerr = () => {
   return (
-    <footer className="bg-white text-black py-10 h-[488px] w-full">
-      <div className="container mx-auto px-4">
+    <footer className="bg-white text-black py-[53px]  w-full">
+      <div className="container mx-auto px-4 place-items-center">
         {/* Footer flex layout */}
-        <div className="flex flex-wrap justify-between space-x-4">
+        <div className="flex flex-col gap-5 lg:flex-row lg:gap-[80px] md:flex-row md:gap-[60px] sm:flex-row sm:gap-[40px]">
 
           {/* Company Info */}
-          <div className="flex-1 min-w-[180px]">
+          <div className="">
             <h1 className="text-lg sm:text-xl font-bold text-black mb-3">Company Info</h1>
             <ul className="text-xs sm:text-sm text-[#737373] space-y-2">
               <li>
@@ -37,7 +37,7 @@ const Footerr = () => {
           </div>
 
           {/* Legal */}
-          <div className="flex-1 min-w-[180px]">
+          <div className=" ">
             <h1 className="text-lg sm:text-xl font-bold text-black mb-3">Legal</h1>
             <ul className="text-xs sm:text-sm text-[#737373] space-y-2">
               <li>
@@ -64,7 +64,7 @@ const Footerr = () => {
           </div>
 
           {/* Features */}
-          <div className="flex-1 min-w-[180px]">
+          <div className="">
             <h1 className="text-lg sm:text-xl font-bold text-black mb-3">Features</h1>
             <ul className="text-xs sm:text-sm text-[#737373] space-y-2">
               <li>
@@ -91,7 +91,7 @@ const Footerr = () => {
           </div>
 
           {/* Resources */}
-          <div className="flex-1 min-w-[180px]">
+          <div className="">
             <h1 className="text-lg sm:text-xl font-bold text-black mb-3">Resources</h1>
             <ul className="text-xs sm:text-sm text-[#737373] space-y-2">
               <li>
@@ -118,7 +118,7 @@ const Footerr = () => {
           </div>
 
           {/* Get In Touch */}
-          <div className="flex-1 min-w-[180px]">
+          <div className="">
             <h1 className="text-lg sm:text-xl font-bold text-black mb-3">Get In Touch</h1>
             <div className="flex items-center space-x-2">
               <input

@@ -251,26 +251,26 @@ const page = () => {
                 <div className='place-items-center'>
 
 {/* Flex container with reduced space between divs */}
-<div className="flex flex-wrap justify-center items-stretch gap-4 mt-[10px]">
+<div className="flex flex-wrap justify-center items-stretch gap-2 mt-[10px]">
 
   {/* First Div */}
   <div className="flex flex-col items-center justify-center w-full sm:w-[48%] md:w-[48%] lg:w-[48%] min-h-[300px]">
-    <h1 className="text-black text-[22px] font-semibold mb-4">
-      The quick fox jumps over the lazy dog
+    <h1 className="text-black text-[20px] font-semibold mb-4">
+      The quick fox jumps over the lazy
     </h1>
-    <p className="text-[#737373] text-[16px]">
-      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door ENIM <br />
+    <p className="text-[#737373] text-[14px]">
+      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door <br />
       RELIT Mollie. Excitation venial consequent sent <br /> nostrum met.
     </p>
   </div>
 
   {/* Second Div */}
   <div className="flex flex-col items-center justify-center w-full sm:w-[48%] md:w-[48%] lg:w-[48%] min-h-[300px]">
-    <h1 className="text-black text-[22px] font-semibold mb-4">
-      The quick fox jumps over the lazy dog
+    <h1 className="text-black text-[20px] font-semibold mb-4">
+      The quick fox jumps over the lazy 
     </h1>
-    <p className="text-[#737373] text-[16px]">
-      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door ENIM <br />
+    <p className="text-[#737373] text-[14px]">
+      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door <br />
       RELIT Mollie. Excitation venial consequent sent <br /> nostrum met.
     </p>
   </div>
@@ -282,22 +282,22 @@ const page = () => {
 
   {/* First Div */}
   <div className="flex flex-col items-center justify-center w-full sm:w-[48%] md:w-[48%] lg:w-[48%] min-h-[300px]">
-    <h1 className="text-black text-[22px] font-semibold mb-4">
-      The quick fox jumps over the lazy dog
+    <h1 className="text-black text-[20px] font-semibold mb-4">
+      The quick fox jumps over the lazy
     </h1>
-    <p className="text-[#737373] text-[16px]">
-      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door ENIM <br />
+    <p className="text-[#737373] text-[14px]">
+      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door <br />
       RELIT Mollie. Excitation venial consequent sent <br /> nostrum met.
     </p>
   </div>
 
   {/* Second Div */}
   <div className="flex flex-col items-center justify-center w-full sm:w-[48%] md:w-[48%] lg:w-[48%] min-h-[300px]">
-    <h1 className="text-black text-[22px] font-semibold mb-4">
-      The quick fox jumps over the lazy dog
+    <h1 className="text-black text-[20px] font-semibold mb-4">
+      The quick fox jumps over the lazy 
     </h1>
-    <p className="text-[#737373] text-[16px]">
-      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door ENIM <br />
+    <p className="text-[#737373] text-[14px]">
+      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door <br />
       RELIT Mollie. Excitation venial consequent sent <br /> nostrum met.
     </p>
   </div>
@@ -309,22 +309,22 @@ const page = () => {
 
   {/* First Div */}
   <div className="flex flex-col items-center justify-center w-full sm:w-[48%] md:w-[48%] lg:w-[48%] min-h-[300px]">
-    <h1 className="text-black text-[22px] font-semibold mb-4">
-      The quick fox jumps over the lazy dog
+    <h1 className="text-black text-[20px] font-semibold mb-4">
+      The quick fox jumps over the lazy 
     </h1>
-    <p className="text-[#737373] text-[16px]">
-      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door ENIM <br />
+    <p className="text-[#737373] text-[14px]">
+      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door<br />
       RELIT Mollie. Excitation venial consequent sent <br /> nostrum met.
     </p>
   </div>
 
   {/* Second Div */}
   <div className="flex flex-col items-center justify-center w-full sm:w-[48%] md:w-[48%] lg:w-[48%] min-h-[300px]">
-    <h1 className="text-black text-[22px] font-semibold mb-4">
-      The quick fox jumps over the lazy dog
+    <h1 className="text-black text-[20px] font-semibold mb-4">
+      The quick fox jumps over the lazy 
     </h1>
-    <p className="text-[#737373] text-[16px]">
-      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door ENIM <br />
+    <p className="text-[#737373] text-[14px]">
+      Met minim Mollie non desert Alamo est sit cliquey <br /> dolor do met sent. RELIT official consequent door<br />
       RELIT Mollie. Excitation venial consequent sent <br /> nostrum met.
     </p>
   </div>

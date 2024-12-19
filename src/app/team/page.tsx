@@ -121,7 +121,7 @@ const SecondPag = () => {
 
 
       {/* Heading and Text */}
-      <div className="text-center mt-10">
+      <div className="text-center mt-[70px]">
       
         <h1 className="text-2xl sm:text-3xl font-bold">Meet Our Team</h1>
        
@@ -162,7 +162,7 @@ const SecondPag = () => {
       {/* Card 1 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team4}
             alt="Profile Image"
@@ -197,7 +197,7 @@ const SecondPag = () => {
       {/* Card 2 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team5}
             alt="Profile Image"
@@ -232,7 +232,7 @@ const SecondPag = () => {
       {/* Card 3 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team6}
             alt="Profile Image"
@@ -292,7 +292,7 @@ const SecondPag = () => {
       {/* Card 1 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team3}
             alt="Profile Image"
@@ -327,7 +327,7 @@ const SecondPag = () => {
       {/* Card 2 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team7}
             alt="Profile Image"
@@ -362,7 +362,7 @@ const SecondPag = () => {
       {/* Card 3 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team1}
             alt="Profile Image"
@@ -428,7 +428,7 @@ const SecondPag = () => {
       {/* Card 1 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team2}
             alt="Profile Image"
@@ -463,7 +463,7 @@ const SecondPag = () => {
       {/* Card 2 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team8}
             alt="Profile Image"
@@ -498,7 +498,7 @@ const SecondPag = () => {
       {/* Card 3 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team9}
             alt="Profile Image"

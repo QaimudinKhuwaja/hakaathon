@@ -5,7 +5,7 @@ import booy from '../assets/booy.png';
 const FourthPag = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-[#23856D] mt-[30px]">
-      <div className="flex flex-col sm:flex-row items-center justify-between p-6 w-full sm:w-[1050px] sm:h-[500px]">
+      <div className="flex flex-col sm:flex-row items-center justify-between p-6 w-full sm:h-[500px]">
         
         {/* Left Side: Text Content */}
         <div className="sm:w-1/2 text-center sm:text-left sm:pl-[80px]">

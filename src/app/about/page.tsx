@@ -39,7 +39,7 @@ const HeroSection = () => {
       </div>
 
       {/* Image Section */}
-      <div className="relative flex-1 w-full h-full min-h-screen"> {/* Updated to ensure full height */}
+      <div className="relative flex-1  min-h-screen ml-5 "> {/* Updated to ensure full height */}
         <Image
           src={about} 
           alt="Hero Image"
@@ -81,7 +81,7 @@ const HeroSection = () => {
 
 
 
-    <div className="flex justify-between gap-[10px] md:gap-[80px] lg:gap-[140px] sm:flex sm:gap-6 mt-[30px]">
+    <div className="flex justify-between gap-[10px] md:gap-[80px] lg:gap-[140px] sm:flex sm:gap-6 mt-[40px]">
 
 {/* First Div */}
 <div className="text-center">
@@ -114,8 +114,8 @@ const HeroSection = () => {
 
 
 {/* 4th section */}
-<div className="place-items-center mt-[50px]">
-<div className="w-[380px] h-[380px] md:w-[800px] md:h-[500px] lg:w-[1000px] lg:h-[600px]">
+<div className="place-items-center lg:mt-[0px] mt-[200px]">
+<div className="w-[350px] h-[300px] md:w-[800px] md:h-[500px] lg:w-[1000px] lg:h-[600px]">
         <Image
           src={bigimg} 
           alt="Image"
@@ -125,7 +125,7 @@ const HeroSection = () => {
 
 
 
-<div className="text-center mt-10">
+<div className="text-center lg:mt-11 md:mt-11 sm:mt-11">
             
           <h1 className="text-[27px] md:text-[34px] lg:text-[44px] font-bold mt-[8px] "> Meet Our Team</h1>
           <p className="mt-4 text-lg max-w-2xl mx-auto">
@@ -147,7 +147,7 @@ const HeroSection = () => {
       {/* Card 1 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team1}
             alt="Profile Image"
@@ -182,7 +182,7 @@ const HeroSection = () => {
       {/* Card 2 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team2}
             alt="Profile Image"
@@ -217,7 +217,7 @@ const HeroSection = () => {
       {/* Card 3 */}
       <div className="w-[313px] bg-white rounded-lg shadow-lg p-4">
         {/* Image */}
-        <div className="w-[313px] h-[231px] overflow-hidden rounded-md relative">
+        <div className="w-[280px] h-[231px] overflow-hidden rounded-md relative">
           <Image
             src={team3}
             alt="Profile Image"
