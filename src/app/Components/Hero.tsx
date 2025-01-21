@@ -4,7 +4,8 @@ import girl from '../assets/girl.jpg';
 
 const HeroSection = () => {
   return (
-    <section className="relative max-w-screen-full h-screen ">
+    <div className="place-items-center">
+    <div className="relative max-w-screen-full h-screen ">
       {/* Full Screen Image */}
       <div className="relative h-[40vh] sm:h-[50vh] md:h-[110vh]">
         <Image
@@ -34,7 +35,7 @@ const HeroSection = () => {
         </div>
       </div>
 {/* small size text */}
-      <div className="space-y-2 md:hidden lg:hidden place-items-center mt-[10px]">
+      <div className="md:hidden lg:hidden place-items-center mt-[3px]">
           {/* Text Content */}
           <p className="text-[18px]">SUMMER 2022</p>
           <h1 className="text-[30px] sm:text-4xl md:text-5xl font-bold mt-3">
@@ -48,7 +49,8 @@ const HeroSection = () => {
             Shop Now
           </button>
         </div>
-    </section>
+    </div>
+    </div>
   );
 };
 

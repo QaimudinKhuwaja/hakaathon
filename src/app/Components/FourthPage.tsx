@@ -4,6 +4,7 @@ import booy from '../assets/booy.png';
 
 const FourthPag = () => {
   return (
+    <div className="place-items-center">
     <div className="flex items-center justify-center min-h-screen bg-[#23856D] mt-[30px]">
       <div className="flex flex-col sm:flex-row items-center justify-between p-6 w-full sm:h-[500px]">
         
@@ -36,6 +37,7 @@ const FourthPag = () => {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 };

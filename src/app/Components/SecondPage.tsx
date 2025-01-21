@@ -7,7 +7,7 @@ import React from 'react';
 
 const SecondPag = () => {
   return (
-    <div className="w-full">
+    <div className="w-full place-items-center">
       {/* Heading and Text */}
       <div className="text-center">
         <h1 className="text-2xl sm:text-3xl font-bold"> EDITORS PIC</h1>

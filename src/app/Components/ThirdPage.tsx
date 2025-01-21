@@ -13,7 +13,7 @@ import product8 from '../assets/product8.png';
 const ThirdPag = () => {
   return (
 <>
-    
+    <div className="place-items-center">
   
             <div className="text-center mt-20">
               <h2 className='text-[#737373] text-xl'>Featured Products</h2>
@@ -32,10 +32,10 @@ const ThirdPag = () => {
         <Image
           src={ourat} // Product Image
           alt="Product"
-          width={200}
-          height={200}
+          width={165}
+          height={180}
           objectFit="cover"
-          className='h-[290px]'
+          className=' object-cover object-top' 
         />
       </div>
 
@@ -71,10 +71,10 @@ const ThirdPag = () => {
         <Image
           src={boyy} // Product Image
           alt="Product"
-          width={200}
-          height={200}
+          width={160}
+          height={180}
           objectFit="cover"
-          className='h-[290px]'
+          className=' object-cover object-top' 
         />
       </div>
 
@@ -112,10 +112,10 @@ const ThirdPag = () => {
         <Image
           src={girll} // Product Image
           alt="Product"
-          width={200}
-          height={200}
+          width={160}
+          height={180}
           objectFit="cover"
-          className='h-[290px]'
+          className=' object-cover object-top' 
         />
       </div>
 
@@ -152,10 +152,10 @@ const ThirdPag = () => {
         <Image
           src={girlll} // Product Image
           alt="Product"
-          width={200}
-          height={200}
+          width={165}
+          height={180}
           objectFit="cover"
-          className='h-[290px]'
+          className=' object-cover object-top' 
         />
       </div>
 
@@ -195,10 +195,10 @@ const ThirdPag = () => {
         <Image
           src={product5} // Product Image
           alt="Product"
-          width={200}
-          height={200}
+          width={165}
+          height={180}
           objectFit="cover"
-          className='h-[290px]'
+          className=' object-cover object-top' 
         />
       </div>
 
@@ -236,10 +236,10 @@ const ThirdPag = () => {
         <Image
           src={product6} // Product Image
           alt="Product"
-          width={200}
-          height={200}
+          width={165}
+          height={180}
           objectFit="cover"
-          className='h-[290px]'
+          className=' object-cover object-top' 
         />
       </div>
 
@@ -277,10 +277,10 @@ const ThirdPag = () => {
         <Image
           src={product7} // Product Image
           alt="Product"
-          width={200}
-          height={200}
+          width={165}
+          height={180}
           objectFit="cover"
-          className='h-[290px]'
+          className=' object-cover object-top' 
         />
       </div>
 
@@ -319,10 +319,10 @@ const ThirdPag = () => {
         <Image
           src={product8} // Product Image
           alt="Product"
-          width={200}
-          height={200}
+          width={165}
+          height={180}
           objectFit="cover"
-          className='h-[290px]'
+          className=' object-cover object-top' 
         />
       </div>
 
@@ -345,10 +345,10 @@ const ThirdPag = () => {
         </div>
       </div>
     </div> 
+    </div>
 
 
-
-                       </div>
+  </div>
     </>
   );
 };
